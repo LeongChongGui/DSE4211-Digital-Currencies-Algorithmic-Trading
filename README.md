@@ -29,16 +29,6 @@ On the test period, the Prophet-MVOP ensemble strategy achieved:
 
 The strategy consistently outperformed a simple buy-and-hold benchmark, demonstrating superior risk-adjusted returns and adaptability.
 
-## Project Structure
-```
-├── data/                   # Scripts for data fetching & preprocessing
-├── forecasting/            # Prophet model training and prediction
-├── optimization/           # MVOP portfolio construction and weight calculation
-├── backtesting/           # Portfolio simulation and performance analysis
-├── utils/                 # Helper functions (metrics, plotting)
-└── config.py              # Parameters and asset definitions
-```
-
 ## Requirements
 Key Python libraries: `prophet`, `numpy`, `pandas`, `cvxpy` (or `scipy` for optimization), `yfinance`, `plotly`/`matplotlib`.
 
