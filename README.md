@@ -32,12 +32,6 @@ The strategy consistently outperformed a simple buy-and-hold benchmark, demonstr
 ## Requirements
 Key Python libraries: `prophet`, `numpy`, `pandas`, `cvxpy` (or `scipy` for optimization), `yfinance`, `plotly`/`matplotlib`.
 
-## Usage
-1.  Run data collection scripts in `data/` to fetch and clean hourly price data.
-2.  Train Prophet models and generate forecasts using scripts in `forecasting/`.
-3.  Run the main ensemble strategy (`main.py`) to generate hourly allocations via MVOP.
-4.  Execute the backtest to evaluate performance and generate metrics and equity curves.
-
 ## Uniqueness & Contributions
 - Bridges time-series forecasting and modern portfolio theory in a high-frequency, multi-asset context.
 - Proposes a novel weight-adjustment mechanism that uses Prophet's predictions to inform MVOP constraints.
